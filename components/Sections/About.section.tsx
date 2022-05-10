@@ -24,8 +24,9 @@ const About: NextComponentType = () => {
           and Machine Learning.
           Software Engineering is the one that suits me the most <br />
           and I have chosen to master the craft ever since. <br />
-          Though currently being a backend engineer,
-          I also have great interest in frontend as well as mobile application developments.
+          Though currently working as a backend engineer,
+          I also have great interest in frontend as well as mobile application developments.<br />
+          In my free time, I enjoy reading, drawing random stuffs and coding hobby projects.
         </p>
 
         {/* <Link href="https://www.instagram.com/?hl=vi" passHref>

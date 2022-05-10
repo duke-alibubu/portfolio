@@ -7,6 +7,7 @@ import {
   Skills,
   Contact,
   NowPlaying,
+  Work,
 } from "../components";
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Header />
       <About />
       <Skills />
+      <Work />
       <Projects />
       <Contact />
 
