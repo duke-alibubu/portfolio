@@ -30,7 +30,7 @@ const Work = () => {
                 Work as a backend developer in the Promotion Team.
               </li>
               <li>
-                In charge of maintaining multiple in-house applications and microservices that help manage media file resources.
+                In charge of various multiple in-house applications and microservices that help manage media file resources.
               </li>
             </dl>
           </div>
