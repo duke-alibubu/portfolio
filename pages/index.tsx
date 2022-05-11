@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <Contact />
 
       <div className="flex justify-center">
-        <NowPlaying />
+        <p className="text-0.5xl font-bold text-white mb-10">© 2022 created by Dung Trinh (Duke)</p>
       </div>
     </div>
   );
