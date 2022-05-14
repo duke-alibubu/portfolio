@@ -1,6 +1,7 @@
 import type { NextComponentType } from "next";
 
 import Link from "next/link";
+import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
 
 const About: NextComponentType = () => {
   return (
@@ -23,19 +24,18 @@ const About: NextComponentType = () => {
           and I have chosen to master the craft ever since. <br />
           Though currently working as a backend engineer,
           I also have great interest in frontend as well as mobile application developments.<br />
-          In my free time, I enjoy reading, drawing random stuffs and coding hobby projects.
         </p>
 
-        {/* <Link href="https://www.instagram.com/?hl=vi" passHref>
+        <Link href="https://alibubu-99.artstation.com/" passHref>
           <a
             className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-serif text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read my Blog
+            I draw random things here, too.
             <HiOutlineArrowNarrowRight />
           </a>
-        </Link> */}
+        </Link>
       </div>
 
       <div className="hidden custom:block">
