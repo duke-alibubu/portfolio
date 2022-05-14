@@ -2,7 +2,7 @@ import { BsArrowRightShort } from "../Misc/Icons.collection";
 
 const Skills = () => {
   return (
-    <div className="my-16 px-3 font-sen text-white" id="skills">
+    <div className="my-16 px-3 font-sans text-white" id="skills">
       <p className="text-3xl font-bold text-white">Skills</p>
 
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">

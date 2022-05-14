@@ -1,7 +1,6 @@
 const path = require("path");
-const withFonts = require('next-fonts');
 
-module.exports = withFonts({
+module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
@@ -18,9 +17,4 @@ module.exports = withFonts({
   },
   assetPrefix: './',
   trailingSlash: true,
-  enableSvg: true,
-  webpack(config, options) {
-    return config;
-  },
-  reactStrictMode: true,
-});
+};

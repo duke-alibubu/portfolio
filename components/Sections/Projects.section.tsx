@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projects: NextComponentType = () => {
   return (
-    <div className="my-16 px-3 font-sen text-white" id="projects">
+    <div className="my-16 px-3 font-sans text-white" id="projects">
       <p className="text-3xl font-bold text-white">Personal Projects</p>
 
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">

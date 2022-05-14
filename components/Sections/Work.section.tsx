@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Work = () => {
   return (
-    <div className="my-16 px-3 font-sen text-white" id="work">
+    <div className="my-16 px-3 font-sans text-white" id="work">
       <p className="text-3xl font-bold text-white">Work Experience</p>
 
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
