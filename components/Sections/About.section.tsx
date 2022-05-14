@@ -1,9 +1,6 @@
 import type { NextComponentType } from "next";
 
-import Image from "next/image";
 import Link from "next/link";
-
-import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
 
 const About: NextComponentType = () => {
   return (
@@ -42,7 +39,7 @@ const About: NextComponentType = () => {
       </div>
 
       <div className="hidden custom:block">
-        <Image
+        <img
           src="/assests/pfp.jpg"
           width="150"
           height="150"
