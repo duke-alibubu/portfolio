@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/pfp.jpg" />
+        <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" />
       </Head>
       <Component {...pageProps} />
     </>
