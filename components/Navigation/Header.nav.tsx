@@ -1,8 +1,5 @@
 import type { NextComponentType, NextPageContext } from "next";
 
-import Link from "next/link";
-import { VscGithubAlt } from "../Misc/Icons.collection";
-
 import type { linkProps } from "../../@types/prop.types";
 
 const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
