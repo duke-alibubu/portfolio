@@ -1,6 +1,5 @@
 import type { NextComponentType } from "next";
 
-import Link from "next/link";
 
 const Projects: NextComponentType = () => {
   return (

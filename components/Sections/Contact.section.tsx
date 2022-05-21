@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   MdEmail,
   AiOutlineGithub,
-  AiOutlineTwitter,
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";

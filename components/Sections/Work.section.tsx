@@ -1,6 +1,3 @@
-import { BsArrowRightShort } from "../Misc/Icons.collection";
-import Link from "next/link";
-
 const Work = () => {
   return (
     <div className="my-16 px-3 font-sans text-white" id="work">
