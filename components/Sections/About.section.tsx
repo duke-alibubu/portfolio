@@ -43,7 +43,7 @@ const About: NextComponentType = () => {
 
       <div className="hidden custom:block">
         <img
-          src="/assests/pfp.jpg"
+          src="https://raw.githubusercontent.com/duke-alibubu/portfolio/main/public/assests/pfp.jpg"
           width="150"
           height="150"
           className="rounded-full"
