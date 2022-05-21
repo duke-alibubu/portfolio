@@ -20,8 +20,7 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
       - name: Deploy application
-        run: |
-          git config --global user.name "duke-alibubu"
-          git config --global user.email "ttdungalibubu@gmail.com"
-          git remote set-url origin https://github.com/duke-alibubu/portfolio.git
-          npm run deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: out
