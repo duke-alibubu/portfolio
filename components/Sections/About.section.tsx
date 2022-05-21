@@ -22,8 +22,11 @@ const About: NextComponentType = () => {
           and Machine Learning.
           Software Engineering is the one that suits me the most <br />
           and I have chosen to master the craft ever since. <br />
-          Though currently working as a backend engineer,
+          Though currently working as a backend developer,
           I also have great interest in frontend as well as mobile application developments.<br />
+          <br />
+          In my free time, I enjoy drawing and learning new geeky stuffs (currently I am trying out Blender). <br />
+          I pick up a new book once a while - mostly fantasy or technical books.
         </p>
 
         <Link href="https://alibubu-99.artstation.com/" passHref>
@@ -32,7 +35,7 @@ const About: NextComponentType = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            I draw random things here, too.
+            I post my drawings here sometimes.
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
