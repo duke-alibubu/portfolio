@@ -23,4 +23,5 @@ jobs:
         run: |
           git config --global user.name "duke-alibubu"
           git config --global user.email "ttdungalibubu@gmail.com"
+          git remote set-url origin https://github.com/duke-alibubu/portfolio.git
           npm run deploy
